@@ -1,19 +1,44 @@
-##manifest.xml
-`        <meta-data
-             android:name="Entry"
-             android:value="com.gameassist.plugin.demo.PluginEntry" />`
-             Entry是小程序入口
-`     <meta-data
-             android:name="Target0"
-             android:value="*" />`
-             target0是目标程序包名
-             `       <meta-data
-                          android:name="Version0"
-                          android:value="*" />`
-                          version0是目标程序版本号
-                          label 是名称，desc 是描述
 
+# miniprogram demo
 
+小程序介绍
 
+## Usage
 
+AndroidManifest.xml介绍:
 
+``` AndroidManifest.xml
+meta-data
+android:name="Entry"
+android:value="小程序入口"
+
+meta-data
+android:name="Target0"
+android:value="目标应用包名"
+
+meta-data
+android:name="Version0"
+android:value="目标应用版本号"
+
+meta-data
+android:name="Label"
+android:value="小程序名称"
+
+meta-data
+android:name="Description"
+android:value="小程序描述"
+```
+
+入口介绍 PluginEntry.java:
+
+``` java
+
+```
+
+## Demo
+
+this
+
+## License
+
+This project is licensed under the terms of [the MIT license](LICENSE.txt).
