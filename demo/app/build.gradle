@@ -36,7 +36,6 @@ repositories {
     }
 }
 dependencies {
-    compile(name: 'franksdk', ext: 'aar');
     provided files('libs/pluginInterface.jar')
 
 }

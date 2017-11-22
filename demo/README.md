@@ -30,14 +30,16 @@ android:value="小程序描述"
 ```
 
 入口介绍 PluginEntry.java:
-
+入口类包名前缀必须com.gameassist.plugin.xxx.PluginEntry
 ``` java
+
 
 ```
 
 ## Demo
 
 this
+com.gameassist.plugin.demo.PluginEntry.java
 
 ## License
 
